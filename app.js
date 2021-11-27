@@ -109,7 +109,7 @@ bot.on("message", async(message) => {
                     name: message.text,
                 })
 
-                await bot.sendMessage(userId, "salom" + message.text + ", Telefon raqamingizni kiriting:",{
+                await bot.sendMessage(userId, "salom " + message.text + ", Telefon raqamingizni kiriting:",{
                     reply_markup: {
                         keyboard: [
                             [
